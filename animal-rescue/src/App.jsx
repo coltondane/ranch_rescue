@@ -2,34 +2,81 @@
 import {useState} from 'react';
 import "./style/app.css";
 
+// import pages
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Animals from './pages/Animals';
+import ContactUs from './pages/ContactUs';
+import Donate from './pages/Donate';
 
+// function to set the current page
 function App() {
-  const [count, setCount] = useState(0)
+  // set default state along with state setter
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderHome = () => {
+      setCurrentPage('Home');
+  };
+  const renderAboutUs = () => {
+      setCurrentPage('About Us');
+  }
+  const renderDonate = () => {
+      setCurrentPage('Donate');
+  };
+  const renderContactUs = () => {
+      setCurrentPage('Contact Us');
+  };
+  const renderAnimals = () => {
+      setCurrentPage('Animals');
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="rescue-app">
+      <header className="header-container">
+        <h1 className='name'>Lily's Ranch and Rescue</h1>
+        <nav className="navigation">
+          <ul>
+            <button onClick={renderHome} className="about-me-btn">
+              Home
+            </button>
+            <button onClick={renderAboutUs} className="portfolio-btn">
+              About Us
+            </button>
+            <button onClick={renderAnimals} className="portfolio-btn">
+              Animals
+            </button>
+            <button onClick={renderContactUs} className="contact-btn">
+              Contact Us
+            </button>
+            <button onClick={renderDonate} className="resume-btn">
+              Donate 
+            </button>
+          </ul>
+        </nav>
+      </header>
+      <div className="content">
+        {currentPage === "Home" && <Home />}
+        {currentPage === "About Us" && <AboutUs />}
+        {currentPage === "Animals" && <Animals />}
+        {currentPage === "Contact Us" && <ContactUs />}
+        {currentPage === "Donate" && <Donate />}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <footer>
+        <div>
+        <a href="https://www.facebook.com/lilysranchandrescue/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-facebook"></i>
+        </a>
+        <a href="__" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-patreon"></i>
+        </a>
+        <a href="https://www.tiktok.com/@lilysranchandrescue" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-tiktok"></i>
+        </a>
+        </div>
+        <p>&copy; 2024 Lily's Ranch and Rescue 501(c)(3)</p>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
