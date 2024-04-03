@@ -1,5 +1,13 @@
 /* styling app.jsx */
 
+.rescue-app {
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -8,7 +16,7 @@ header {
   }
 
   .name {
-    color: #415c48;
+    color: #ffffff;
     font-size: 40px;
   }
   
@@ -18,8 +26,8 @@ header {
   }
 
   button {
-    background-color: #e8e2aa;
-    color: #75654C;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -29,7 +37,7 @@ header {
   }
 
 button:hover {
-    box-shadow: 0 8px 16px #4c4231;
+    box-shadow: 0 8px 16px #fd8626;
     transform: scale(1.05);
 }
 
@@ -42,12 +50,12 @@ button:hover {
   }
   
   footer p {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
   
   }
   footer i {
     font-size: 30px;
     margin: 0 10px;
-    color: #534836;
+    color: #ffffff;
   }
