@@ -1,6 +1,7 @@
 /* styling for home page */
 
 .content {
+    
     max-height: 80vh;
     overflow-y: auto;
     display: flex;
@@ -29,4 +30,8 @@ h2 {
     font-size: 40px;
     color: #ffffff;
     margin-top: 50px;
+}
+
+.right-content {
+    background-image: url('../assets/donkeys.jpg');
 }
