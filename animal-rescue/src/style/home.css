@@ -1,7 +1,7 @@
 /* styling for home page */
 
 .content {
-    
+    border: #ffffff 2px solid;
     max-height: 80vh;
     overflow-y: auto;
     display: flex;
