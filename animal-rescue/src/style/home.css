@@ -1,33 +1,30 @@
 /* styling for home page */
 
-.content {
-    border: #ffffff 2px solid;
-    max-height: 80vh;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    padding: 20px;
-}
-h1 {
-    text-align: center;
-    font-size: 50px;
-    color: #ffffff;
-    margin-top: 50px;
-}
+.page-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px; /* Add padding as needed */
+    border: 1px solid #ffffff;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
 
-p {
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    margin-top: 50px;
-}
+  
+  .grid-item {
+    padding: 10px;
+  }
+  
+  .text {
+    /* Styles for the text column */
+  }
+  
+  .image img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+  
+  /* You may need to adjust these styles based on your design */
+  

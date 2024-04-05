@@ -1,13 +1,5 @@
 /* styling app.jsx */
 
-.rescue-app {
-    background-image: url('../assets/hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +34,13 @@ button:hover {
 }
 
   footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
+    padding: 10px 0;
   }
 
   footer div {
