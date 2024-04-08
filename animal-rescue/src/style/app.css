@@ -36,6 +36,8 @@ button:hover {
 .content{
     border: 1px solid #ffffff;
     padding: 20px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
 }
 
   footer {

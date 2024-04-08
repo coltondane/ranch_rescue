@@ -9,17 +9,15 @@ const HomePage = () => {
         <Container className='content'>
             <Row>
                 <Col>
-                    <h1>Welcome to Lily's Ranch and Rescue</h1>
+                    <h1>Rescue, Rehabilitate, Rehome</h1>
                     <p>
                         We are a non-profit organization that rescues and rehabilitates horses and other animals. We are dedicated to providing a safe and loving environment for animals in need. Our mission is to rescue, rehabilitate, and rehome animals in need. We believe that all animals deserve a second chance at life and we are committed to helping them find their forever homes.
                     </p>
-                    <p>
-                        We are a non-profit organization that rescues and rehabilitates horses and other animals. We are dedicated to providing a safe and loving environment for animals in need. Our mission is to rescue, rehabilitate, and rehome animals in need. We believe that all animals deserve a second chance at life and we are committed to helping them find their forever homes.
-                    </p>
-                    
                 </Col>
                 <Col>
-                    {/* <img src={horsesImg} alt="horses" className="home-img" /> */}
+                    <p>
+                        We are a non-profit organization that rescues and rehabilitates horses and other animals. We are dedicated to providing a safe and loving environment for animals in need. Our mission is to rescue, rehabilitate, and rehome animals in need. We believe that all animals deserve a second chance at life and we are committed to helping them find their forever homes.
+                    </p>  
                 </Col>
             </Row>
         </Container>

@@ -1,6 +1,8 @@
 // root imports
 import {useState} from 'react';
 import "./style/app.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // import pages
 import Home from './pages/Home';

@@ -1,1 +1,16 @@
 /* styling for home page */
+.content {
+    margin: 20px auto; /* Center the content horizontally with 20px margin on top and bottom */
+    max-width: 1000px; /* Set a maximum width for better readability */
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Add space between the heading and paragraph */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5; /* Increase line height for better readability */
+  }
+  
