@@ -1,8 +1,8 @@
 /* styling for home page */
 .content {
-    margin: 20px auto;
+    margin: auto;
     max-width: 1200px;
-    color: white;
+    color: white 
   }
   
   h1 {
@@ -13,5 +13,12 @@
   p {
     font-size: 20px;
     line-height: 1.5; 
+  }
+  .intro {
+    margin-bottom: 30px;
+  }
+  
+  .reason {
+    margin-top: 30px; 
   }
   

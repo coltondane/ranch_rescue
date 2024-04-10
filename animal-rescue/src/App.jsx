@@ -3,13 +3,14 @@ import {useState} from 'react';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-// import pages
+// import pages and other 
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Animals from './pages/Animals';
 import ContactUs from './pages/ContactUs';
 import Donate from './pages/Donate';
+
+import ranchLogo from './assets/ranchLogo.jpg';
 
 // function to set the current page
 function App() {
@@ -35,7 +36,10 @@ function App() {
   return (
     <div className="rescue-app">
       <header className="header-container">
-        <h1 className='name'>Lily's Ranch and Rescue</h1>
+        <h1 className='name'>
+          <img src={ranchLogo} alt='ranch logo' className='logo' />
+          Lily's Ranch and Rescue
+        </h1>
         <nav className="navigation">
           <ul>
             <button onClick={renderHome} className="about-me-btn">
