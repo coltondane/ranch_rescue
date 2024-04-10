@@ -1,0 +1,25 @@
+/* styling for the aboutUs page */
+
+.meet {
+    margin: auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.summary-lily {
+    margin: auto;
+    text-align: center;
+}
+
+.lily {
+    height: 475px;
+    width: 350px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.lily:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
