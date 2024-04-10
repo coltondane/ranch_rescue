@@ -23,3 +23,17 @@
     transform: scale(1.05);
     transition-duration: 500ms;
 }
+
+.horses-img {
+    height: 750px;
+    width: 575px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.donkeys-img {
+    height: 425px;
+    width: 575px;
+    border-radius: 8px;
+    align-items: center;
+}
