@@ -24,6 +24,8 @@
     transition-duration: 500ms;
 }
 
+/* 2nd section */
+
 .horses-img {
     height: 750px;
     width: 575px;
@@ -34,6 +36,35 @@
 .donkeys-img {
     height: 425px;
     width: 575px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+/* 3rd section */
+
+.pony-img {
+    height: 425px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.piglet-img {
+    height: 475px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.mission {
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* 4th section */
+
+.fam-pic {
+    height: 500px;
+    width: 500px;
     border-radius: 8px;
     align-items: center;
 }

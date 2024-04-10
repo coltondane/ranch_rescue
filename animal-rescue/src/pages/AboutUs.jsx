@@ -5,6 +5,9 @@ import '../style/aboutUs.css';
 import horsesImg from '../assets/horses.jpeg';
 import lilyImg from '../assets/lily.jpg';
 import donkeys from '../assets/donkeys.jpg';
+import pony from '../assets/pony2.jpeg';
+import piglet from '../assets/piglet.jpeg';
+import fam from '../assets/laurie+trey.jpg';
 
 
 const AboutPage = () => {
@@ -30,7 +33,7 @@ const AboutPage = () => {
           <img src={horsesImg} alt='horses' className='horses-img' />
         </Col>
         <Col>
-          <h2>Why We Do What We Do</h2>
+          <h2 className='why-title'>Why We Do What We Do</h2>
           <p>
               To make a long story short, the animals are our reason. We have made the choice to be the voice for the voiceless. These animals who are neglected, abused, and pushed aside who are rescued by us remind us just how important our role is to be their voice. To be the ones to speak up on their behalf and educate others on the traumatic abuse that occurs to a number of animals daily. 
           </p>
@@ -38,6 +41,40 @@ const AboutPage = () => {
               Not only is it important to us to be their voices, but it is equally as important to us that we show the animals the love they never received. At Lily's Ranch and Rescue, we pride ourselves on the healing love and care that we provide each animal that joins us.
           </p>
           <img src={donkeys} alt="donkeys" className='donkeys-img'/>
+        </Col>
+      </Row>
+      <Row className='mission'>
+        <Col>
+          <img src={pony} alt="pony-img" className='pony-img'/>
+        </Col>
+        <Col className='mission-desc'>
+        <h2>Our Mission</h2>
+          <p>
+            At Lily's Ranch and Rescue, our mission is to provide the highest level of respect, love, and care to each animal that is rescued by us. Through rehabilitation and continuous work with each animal, our goal is to re-home or provide a soft landing to every animal that crosses our path.
+          </p>
+          <p>
+            It is our goal to educate about animal abuse and neglect to not only the community we reside in, but world-wide. Through our rescue, we aim to raise awareness around the number of ways that all animals, especially equine, are treated globally and to help fight for stricter laws around the neglect, abuse, and mistreatment of animals.
+          </p>
+        </Col>
+        <Col>
+          <img src={piglet} alt="piglet-img" className='piglet-img'/>
+        </Col>
+      </Row>
+      <Row className='founders'>
+        <Col className='founder-content'>
+          <h1>Meet the Founders</h1>
+          <p>
+            Lily's Ranch & Rescue was founded by Laurie. Laurie has been fostering and rehabilitating animals for over 10 years but recently began Lily's Ranch and Rescue in 2017. Through Laurie's passion and love for animals, she has rescued over 150 animals and that number continues to grow.
+          </p>
+          <p>
+            Laurie was residing in Colorado when she initially founded Lily's Ranch and Rescue. In the Summer of 2022, Laurie made the move to Hopkinsville, Kentucky where a new chapter for the rescue began (Head over to Laurie's Blog to read the details of moving the rescue across the country).
+          </p>
+          <p>
+            At Lily's Ranch and Rescue, equine animals are our specialty, but we do not turn away any animal that is in need of our help. We also never turn away any volunteer help! Contact us if you would like to learn about our volunteer opportunities.
+          </p>
+        </Col>
+        <Col>
+          <img src={fam} alt='fam-pic' className='fam-pic' />
         </Col>
       </Row>
     </Container>
