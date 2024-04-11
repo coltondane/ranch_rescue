@@ -45,6 +45,30 @@ function DisplayAnimals() {
             name: 'Cow',
             image: placeHolderImg,
             description: 'This cow was rescued from a dairy farm and is now living out their days at Lily\'s Ranch and Rescue'
+        },
+        {
+            id: 7,
+            name: 'Goat',
+            image: placeHolderImg,
+            description: 'This goat was rescued from a slaughterhouse'
+        },
+        {
+            id: 8,
+            name: 'Sheep',
+            image: placeHolderImg,
+            description: 'This sheep was rescued from a factory farm'
+        },
+        {
+            id: 9,
+            name: 'Chicken',
+            image: placeHolderImg,
+            description: 'This chicken was rescued from a factory farm'
+        },
+        {
+            id: 10,
+            name: 'Duck',
+            image: placeHolderImg,
+            description: 'This duck was rescued from a factory farm'
         }
     ];
     // map over the animals array to create an AnimalCard for each animal
