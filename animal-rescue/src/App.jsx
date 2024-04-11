@@ -42,19 +42,19 @@ function App() {
         </h1>
         <nav className="navigation">
           <ul>
-            <button onClick={renderHome} className="about-me-btn">
+            <button onClick={renderHome} className="home-btn">
               Home
             </button>
-            <button onClick={renderAboutUs} className="portfolio-btn">
+            <button onClick={renderAboutUs} className="about-btn">
               About Us
             </button>
-            <button onClick={renderAnimals} className="portfolio-btn">
+            <button onClick={renderAnimals} className="animals-btn">
               Animals
             </button>
             <button onClick={renderContactUs} className="contact-btn">
               Contact Us
             </button>
-            <button onClick={renderDonate} className="resume-btn">
+            <button onClick={renderDonate} className="donate-btn">
               Donate 
             </button>
           </ul>

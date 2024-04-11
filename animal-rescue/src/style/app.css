@@ -20,7 +20,7 @@ header {
   button {
     background-color: #ffffff;
     color: #000000;
-    border: none;
+    border: 1px solid #000000;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 15px;
@@ -70,3 +70,23 @@ button:hover {
     margin: 0 10px;
     color: #ffffff;
   }
+
+/* Add animation keyframes to donate button */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .donate-btn {
+    animation: pulse 2s infinite;
+    color: white;
+    background-color: blue;
+  }
+  
