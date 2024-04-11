@@ -1,0 +1,32 @@
+/* styling for the animals success stories page */
+
+.form-element {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.animal-card {
+    width: 22rem;
+    border: 1px solid #000000;
+    margin: 1rem;
+    box-shadow: 3px 3px #414a4c, -0.4em 0 .4em #0e1111;
+}
+
+.animal-card:hover {
+    transform: scale(1.05);
+    transition-duration: 1000ms;
+}
+
+.card-description {
+    max-height: 150px;
+    overflow-y: auto;
+    color: rgb(86, 112, 112);
+    background-color: transparent;
+}
+
+.animal-name{
+    color: white;
+}

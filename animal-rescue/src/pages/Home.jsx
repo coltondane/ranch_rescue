@@ -3,7 +3,7 @@ import React from 'react';
 import '../style/home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const HomePage = () => {
+function HomePage() {
     return (
         <Container className='content'>
             <Row className='intro'>

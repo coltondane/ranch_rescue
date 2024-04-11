@@ -10,7 +10,7 @@ import piglet from '../assets/piglet.jpeg';
 import fam from '../assets/laurie+trey.jpg';
 
 
-const AboutPage = () => {
+function AboutPage() {
   return (
     <Container className='content'>
       <Row className='title-lily'>
@@ -53,7 +53,7 @@ const AboutPage = () => {
             At Lily's Ranch and Rescue, our mission is to provide the highest level of respect, love, and care to each animal that is rescued by us. Through rehabilitation and continuous work with each animal, our goal is to re-home or provide a soft landing to every animal that crosses our path.
           </p>
           <p>
-            It is our goal to educate about animal abuse and neglect to not only the community we reside in, but world-wide. Through our rescue, we aim to raise awareness around the number of ways that all animals, especially equine, are treated globally and to help fight for stricter laws around the neglect, abuse, and mistreatment of animals.
+            We educate about animal abuse and neglect to not only the community we reside in, but world-wide. Through our rescue, we aim to raise awareness around the number of ways that all animals, especially equine, are treated globally and to help fight for stricter laws around the neglect, abuse, and mistreatment of animals.
           </p>
         </Col>
         <Col>
@@ -67,7 +67,7 @@ const AboutPage = () => {
             Lily's Ranch & Rescue was founded by Laurie. Laurie has been fostering and rehabilitating animals for over 10 years but recently began Lily's Ranch and Rescue in 2017. Through Laurie's passion and love for animals, she has rescued over 150 animals and that number continues to grow.
           </p>
           <p>
-            Laurie was residing in Colorado when she initially founded Lily's Ranch and Rescue. In the Summer of 2022, Laurie made the move to Hopkinsville, Kentucky where a new chapter for the rescue began (Head over to Laurie's Blog to read the details of moving the rescue across the country).
+            Laurie was residing in Colorado when she initially founded Lily's Ranch and Rescue. In the Summer of 2022, Laurie made the move to Hopkinsville, Kentucky where a new chapter for the rescue.
           </p>
           <p>
             At Lily's Ranch and Rescue, equine animals are our specialty, but we do not turn away any animal that is in need of our help. We also never turn away any volunteer help! Contact us if you would like to learn about our volunteer opportunities.
