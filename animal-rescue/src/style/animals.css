@@ -21,11 +21,11 @@
 }
 
 .animal-name {
-    color: black;
+    color: white;
 }
 
 .card-description {
     max-height: 175px;
     overflow-y: auto;
-    color: black;
+    color: white;
 }

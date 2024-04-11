@@ -10,7 +10,7 @@ function DisplayAnimals() {
             id: 1,
             name: 'Lily',
             image: 'lily.jpg',
-            description: 'Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado.'
+            description: 'Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado.The rest of this is gibberish to test the overflow of the text. Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado. blah blah blah keep going. talk about how she inspired Laurie to blah blah blah. Rehoming animals allows us to intake new rescues, and those who cannot find a home due to health conditions or other complications will always have a safe, forever home here at Lily\'s Ranch and Rescue.'
         },
         {
             id: 2,

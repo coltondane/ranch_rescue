@@ -6,7 +6,7 @@ import placeholder from '../assets/pony.png';
 
 function AnimalCard({id, name, image, description}) {
     return (
-        <Card className='animal-card'>
+        <Card className='animal-card' style={{ backgroundColor: 'transparent'}}>
             <Card.Img className='card-image' variant="top" src={placeholder} style={{width: '100%', height: '50%'}} />
             <Card.Body>
                 <Card.Title className='animal-name'>{name}</Card.Title>
