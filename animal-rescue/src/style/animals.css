@@ -20,13 +20,12 @@
     transition-duration: 1000ms;
 }
 
-.card-description {
-    max-height: 150px;
-    overflow-y: auto;
-    color: rgb(86, 112, 112);
-    background-color: transparent;
+.animal-name {
+    color: black;
 }
 
-.animal-name{
-    color: white;
+.card-description {
+    max-height: 175px;
+    overflow-y: auto;
+    color: black;
 }
