@@ -90,7 +90,7 @@ function ContactUs() {
     <>
     <h1 className="contact-title">Please Reach Out!</h1>
     <p className="contact-text">
-      Fill out the form below with your email, name, and a message detailing your reasons for reaching out! We will get back to you as soon as possible! 
+      Fill out the form below with your email, name, and a message detailing your reasons for reaching out, and we will get back to you as soon as possible! Also feel free to reach out to us on our social media platforms, which can be found at the bottom of the page.
     </p>
     <Form onSubmit={handleFormSubmit} className="form-controller">
       <Form.Group className="mb-3" id="" controlId="formBasicEmail">
