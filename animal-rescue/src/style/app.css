@@ -9,6 +9,7 @@ header {
 
   .name {
     color: #ffffff;
+    font-family: 'Cinzel', serif;
     font-size: 45px;
   }
   
@@ -62,6 +63,7 @@ button:hover {
   
   footer p {
     color: rgb(255, 255, 255);
+    font-family: 'Cinzel', serif;
     font-size: 20px;
   
   }
