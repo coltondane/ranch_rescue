@@ -17,6 +17,7 @@ header {
     margin-left: auto;
     padding: 10px 20px;
     font-family: 'Cinzel', serif;
+    font-size: 14px;
   }
 
   button {
@@ -25,7 +26,6 @@ header {
     border: 1px solid #000000;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 15px;
     cursor: pointer;
     margin: 0 10px;
   }
