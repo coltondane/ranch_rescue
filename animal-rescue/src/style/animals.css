@@ -26,7 +26,7 @@
 }
 
 .card-description {
-    max-height: 175px;
+    height: 250px;
     overflow-y: auto;
     color: white;
 }
