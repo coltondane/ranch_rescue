@@ -91,6 +91,6 @@ button:hover {
   .donate-btn {
     animation: pulse 2s infinite;
     color: white;
-    background-color: blue;
+    background-color: rgb(144, 52, 214);
   }
   
