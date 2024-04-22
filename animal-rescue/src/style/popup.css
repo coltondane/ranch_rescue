@@ -1,0 +1,28 @@
+/* styling for the donation popup window */
+.popup-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .popup-container.show {
+    display: block;
+  }
+  
+  .popup-content {
+    font-size: 18px;
+  }
+  
+  .popup-content a {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+  

@@ -1,8 +1,6 @@
 // component controlling a donation popup window 
-
-// Popup.jsx
 import React, { useState, useEffect } from 'react';
-import './Popup.css';
+import '../style/popup.css';
 
 const Popup = () => {
     // State variables to control the popup
@@ -23,7 +21,7 @@ const Popup = () => {
 
     useEffect(() => {
         // Generate a random time between 1 and 10 minutes
-        const randomTime = Math.floor(Math.random() * 9 + 1) * 60000; 
+        const randomTime = Math.floor(Math.random() * 1 + 1) * 60000; 
 
         // Display the popup after the random time
         const timeout = setTimeout(() => {

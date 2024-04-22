@@ -3,6 +3,9 @@ import {useState} from 'react';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// import popup component
+import Popup from './components/Popup.jsx';
+
 // import pages and other 
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
