@@ -44,7 +44,7 @@ button:hover {
 .content{
     /* border: 1px solid #ffffff; */
     /* padding: 20px; */
-    max-height: calc(100vh - 250px);
+    max-height: calc(100vh - 200px);
     overflow-y: auto;
     font-family: 'Fauna One', serif;
 }
