@@ -34,9 +34,9 @@ const Popup = () => {
             }, 5000);
         };
 
-        // generate a random time between 5 and 10 seconds
+        // generate a random time between 1 and 10 minutes
         const getRandomTime = () => {
-            return Math.floor(Math.random() * 6 + 5) * 1000;
+            return (Math.floor(Math.random() * 9) + 1) * 60000;
         };
 
         // Show the initial popup
@@ -56,7 +56,7 @@ const Popup = () => {
         <div className={`popup-container ${showPopup ? 'show' : ''}`}>
             <div className="popup-content">
                 <span>{donorName} donated ${donationAmount}!</span>
-                <a href="donation-page.html">Click here to donate</a>
+                <a href="patreon-link">Click here to donate</a>
             </div>
         </div>
     );
