@@ -87,6 +87,7 @@ function App() {
         </div>
         <p>&copy; 2024 Lily's Ranch and Rescue 501(c)(3)</p>
       </footer>
+      <Popup />
     </div>
   );
 }

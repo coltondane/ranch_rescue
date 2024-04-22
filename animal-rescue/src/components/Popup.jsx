@@ -20,8 +20,8 @@ const Popup = () => {
     };
 
     useEffect(() => {
-        // Generate a random time between 1 and 10 minutes
-        const randomTime = Math.floor(Math.random() * 0.25 + 1) * 60000; 
+        // Generate a random time
+        const randomTime = (Math.floor(Math.random() * 6) + 5) * 1000; 
 
         // Display the popup after the random time
         const timeout = setTimeout(() => {
