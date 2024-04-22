@@ -1,4 +1,4 @@
-// component controlling a donation popup window 
+// component to display a popup when a donation is made
 import React, { useState, useEffect } from 'react';
 import '../style/popup.css';
 
@@ -20,34 +20,44 @@ const Popup = () => {
     };
 
     useEffect(() => {
-        // Generate a random time
-        const randomTime = (Math.floor(Math.random() * 6) + 5) * 1000; 
+        // generate and show the popup
+        const showNewPopup = () => {
+            const name = getRandomName();
+            const amount = getRandomAmount();
+            setDonorName(name);
+            setDonationAmount(amount);
+            setShowPopup(true);
 
-        // Display the popup after the random time
-        const timeout = setTimeout(() => {
-        const name = getRandomName();
-        const amount = getRandomAmount();
-        setDonorName(name);
-        setDonationAmount(amount);
-        setShowPopup(true);
+            // Hide the popup after 5 seconds
+            setTimeout(() => {
+                setShowPopup(false);
+            }, 5000);
+        };
 
-        // Hide the popup after 5 seconds
-        setTimeout(() => {
-            setShowPopup(false);
-        }, 5000);
-        }, randomTime);
+        // generate a random time between 5 and 10 seconds
+        const getRandomTime = () => {
+            return Math.floor(Math.random() * 6 + 5) * 1000;
+        };
 
-        return () => clearTimeout(timeout);
+        // Show the initial popup
+        showNewPopup();
+
+        // Set up interval to show new popups
+        const interval = setInterval(() => {
+            showNewPopup();
+        }, getRandomTime());
+
+        // Clean up the interval on component unmount
+        return () => clearInterval(interval);
     }, []);
 
-    console.log('Window rendered');
-
+    // Render the popup if showPopup is true
     return (
         <div className={`popup-container ${showPopup ? 'show' : ''}`}>
-        <div className="popup-content">
-            <span>{donorName} donated ${donationAmount}!</span>
-            <a href="donation-page.html">Click here to donate</a>
-        </div>
+            <div className="popup-content">
+                <span>{donorName} donated ${donationAmount}!</span>
+                <a href="donation-page.html">Click here to donate</a>
+            </div>
         </div>
     );
 };
