@@ -78,6 +78,9 @@ function App() {
         <a href="https://www.tiktok.com/@lilysranchandrescue" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-tiktok"></i>
         </a>
+        <a href="https://www.instagram.com/lilysranchandrescue/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-instagram"></i>
+        </a>
         </div>
         <p>&copy; 2024 Lily's Ranch and Rescue 501(c)(3)</p>
       </footer>
