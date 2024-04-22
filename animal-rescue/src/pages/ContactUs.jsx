@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import sendEmail from "../utils/emailHandler";
+import contactImg from "../assets/contactImg.jpg";
 
 import '../style/contactUs.css';
 
@@ -132,6 +133,10 @@ function ContactUs() {
         <Button onClick={closeModal}>Close</Button>
       </Modal.Footer>
     </Modal>
+    <div className="connected">
+      <h2>Stay Connected Via The Links Below!</h2>
+      <img src={contactImg} alt="img" className="image"/>
+    </div>
     </>
   );
 }

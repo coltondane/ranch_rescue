@@ -74,6 +74,10 @@ button:hover {
     margin: 0 10px;
     color: #ffffff;
   }
+  
+  footer i:hover {
+    transform: scale(1.5);
+  }
 
 /* Add animation keyframes to donate button */
 @keyframes pulse {
