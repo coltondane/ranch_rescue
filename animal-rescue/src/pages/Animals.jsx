@@ -1,4 +1,4 @@
-// AdoptableAnimalsPage.js
+// Gallery of photos
 import React from 'react';
 import AnimalCard from '../components/AnimalCard';
 
