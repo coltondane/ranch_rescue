@@ -52,7 +52,7 @@ function App() {
               About Us
             </button>
             <button onClick={renderAnimals} className="animals-btn">
-              Animals
+              Gallery
             </button>
             <button onClick={renderContactUs} className="contact-btn">
               Contact Us
