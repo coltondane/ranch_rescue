@@ -34,9 +34,10 @@ const Popup = () => {
             }, 5000);
         };
 
-        // generate a random time between 1 and 10 minutes
+        // generate a random time between 2 and 10 minutes
         const getRandomTime = () => {
-            return (Math.floor(Math.random() * 9) + 1) * 60000;
+            // return Math.floor(Math.random() * 6 + 5) * 1000;
+            return (Math.floor(Math.random() * 9) + 2) * 60000;
         };
 
         // Show the initial popup
