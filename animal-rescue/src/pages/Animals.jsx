@@ -1,87 +1,40 @@
-// Gallery of photos
 import React from 'react';
-import AnimalCard from '../components/AnimalCard';
+import '../style/gallery.css'; 
 
+// images 
 import lilyImg from '../assets/lily.jpg';
 import pigletImg from '../assets/piglet.jpeg';
-import placeHolderImg from '../assets/pony.png';
+import colt from '../assets/colt.jpeg';
+import pig2 from '../assets/pig2.jpeg';
+import turtle from '../assets/turtle.jpeg';
+import rescue1 from '../assets/rescue1.jpeg';
+import piglets from '../assets/piglets.jpeg';
+import bigPig from '../assets/hugepig.jpeg';
+import brownHorse from '../assets/horse2.jpeg';
+import donkey2 from '../assets/donkey2.jpeg';
 
-import '../style/animals.css';
+const ImageGallery = () => {
+  // Array of image paths
+  const images = [
+    lilyImg,
+    pigletImg,
+    colt,
+    pig2,
+    turtle,
+    rescue1,
+    piglets,
+    bigPig,
+    brownHorse,
+    donkey2
+  ];
 
-function DisplayAnimals() {
-       const animals = [
-        {
-            id: 1,
-            name: 'Lily',
-            image: lilyImg,
-            description: 'Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado.The rest of this is gibberish to test the overflow of the text. Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado. blah blah blah keep going. talk about how she inspired Laurie to blah blah blah. Rehoming animals allows us to intake new rescues, and those who cannot find a home due to health conditions or other complications will always have a safe, forever home here at Lily\'s Ranch and Rescue.'
-        },
-        {
-            id: 2,
-            name: 'Piglet',
-            image: pigletImg,
-            description: 'Piglet is a pig who was rescued from a factory farm'
-        },
-        {
-            id: 3,
-            name: 'Horse',
-            image: placeHolderImg,
-            description: 'This horse was rescued from a slaughterhouse'
-        },
-        {
-            id: 4,
-            name: 'Donkey',
-            image: placeHolderImg,
-            description: 'This donkey was rescued from a feedlot'
-        },
-        {
-            id: 5,
-            name: 'Pony',
-            image: placeHolderImg,
-            description: 'This pony was rescued from a factory farm'
-        },
-        {
-            id: 6,
-            name: 'Cow',
-            image: placeHolderImg,
-            description: 'This cow was rescued from a dairy farm and is now living out their days at Lily\'s Ranch and Rescue'
-        },
-        {
-            id: 7,
-            name: 'Goat',
-            image: placeHolderImg,
-            description: 'This goat was rescued from a slaughterhouse'
-        },
-        {
-            id: 8,
-            name: 'Sheep',
-            image: placeHolderImg,
-            description: 'This sheep was rescued from a factory farm'
-        },
-        {
-            id: 9,
-            name: 'Chicken',
-            image: placeHolderImg,
-            description: 'This chicken was rescued from a factory farm'
-        },
-        {
-            id: 10,
-            name: 'Duck',
-            image: placeHolderImg,
-            description: 'This duck was rescued from a factory farm'
-        }
-    ];
-    // map over the animals array to create an AnimalCard for each animal
-    return (
-        <div className='animal-container'>
-          <h1>Lily's Success Stories</h1>
-          <div className='form-element'>
-            {animals.map(animal => (
-                <AnimalCard key={animal.id} name={animal.name} image={animal.image} description={animal.description} />
-            ))}
-          </div>
-        </div>
-    );
-}
+  return (
+    <div className="gallery">
+      {images.map((image, index) => (
+        <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
+      ))}
+    </div>
+  );
+};
 
-export default DisplayAnimals;
+export default ImageGallery;

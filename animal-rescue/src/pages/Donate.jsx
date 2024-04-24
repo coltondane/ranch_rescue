@@ -6,7 +6,7 @@ import lilyImg from '../assets/lily.jpg';
 import pigletImg from '../assets/piglet.jpeg';
 import placeHolderImg from '../assets/pony.png';
 
-import '../style/animals.css';
+import '../style/donation.css';
 
 function DisplayAnimals() {
        const animals = [
