@@ -9,7 +9,7 @@ import Popup from './components/Popup.jsx';
 // import pages and other 
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
-import Animals from './pages/Animals';
+import Gallery from './pages/Gallery.jsx';
 import ContactUs from './pages/ContactUs';
 import Donate from './pages/Donate';
 
@@ -66,7 +66,7 @@ function App() {
       <div className="content">
         {currentPage === "Home" && <Home />}
         {currentPage === "About Us" && <AboutUs />}
-        {currentPage === "Animals" && <Animals />}
+        {currentPage === "Animals" && <Gallery />}
         {currentPage === "Contact Us" && <ContactUs />}
         {currentPage === "Donate" && <Donate />}
       </div>
