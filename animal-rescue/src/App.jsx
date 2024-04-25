@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +12,13 @@ import ContactUs from './pages/ContactUs';
 import Donate from './pages/Donate';
 
 function App() {
+  // Set default page state to 'Home'
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  // Set the initial page to 'Home' when the component mounts
+  useEffect(() => {
+    setCurrentPage('Home');
+  }, []);
   return (
     <Router>
       <div className="rescue-app">
@@ -22,19 +30,19 @@ function App() {
           <nav className="navigation">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" className="home-btn">Home</Link>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to="/about" className="about-btn">About Us</Link>
               </li>
               <li>
-                <Link to="/gallery">Gallery</Link>
+                <Link to="/gallery" className="gallery-btn">Gallery</Link>
               </li>
               <li>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact" className="contact-btn">Contact Us</Link>
               </li>
               <li>
-                <Link to="/donate">Donate</Link>
+                <Link to="/donate" className='donate-btn'>Donate</Link>
               </li>
             </ul>
           </nav>
