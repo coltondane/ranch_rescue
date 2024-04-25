@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, Router, Link } from 'react-router-dom';
+import { BrowserRouter as Route, Routes, Router, Link } from 'react-router-dom';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ranchLogo from './assets/ranchLogo.jpg';
@@ -41,11 +41,11 @@ function App() {
         </header>
         <div className="content">
           <Routes>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={AboutUs} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/contact" component={ContactUs} />
-            <Route path="/donate" component={Donate} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/donate" element={<Donate />} />
           </Routes>
         </div>
         <footer>
