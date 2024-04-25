@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route, Routes, Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ranchLogo from './assets/ranchLogo.jpg';
