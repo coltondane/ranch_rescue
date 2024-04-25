@@ -29,21 +29,21 @@ function App() {
           </h1>
           <nav className="navigation">
             <ul>
-              <li>
+              <button>
                 <Link to="/" className="home-btn">Home</Link>
-              </li>
-              <li>
+              </button>
+              <button>
                 <Link to="/about" className="about-btn">About Us</Link>
-              </li>
-              <li>
+              </button>
+              <button>
                 <Link to="/gallery" className="gallery-btn">Gallery</Link>
-              </li>
-              <li>
+              </button>
+              <button>
                 <Link to="/contact" className="contact-btn">Contact Us</Link>
-              </li>
-              <li>
+              </button>
+              <button>
                 <Link to="/donate" className='donate-btn'>Donate</Link>
-              </li>
+              </button>
             </ul>
           </nav>
         </header>
