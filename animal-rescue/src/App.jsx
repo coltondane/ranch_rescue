@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Router, Link } from 'react-router-dom';
 import "./style/app.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ranchLogo from './assets/ranchLogo.jpg';
@@ -40,13 +40,13 @@ function App() {
           </nav>
         </header>
         <div className="content">
-          <Switch>
+          <Routes>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={AboutUs} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={ContactUs} />
             <Route path="/donate" component={Donate} />
-          </Switch>
+          </Routes>
         </div>
         <footer>
           <div>
