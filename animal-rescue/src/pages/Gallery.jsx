@@ -29,11 +29,17 @@ const ImageGallery = () => {
   ];
 
   return (
-    <div className="gallery">
-      {images.map((image, index) => (
-        <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
-      ))}
-    </div>
+    <>
+      <h1 className="gallery-title">Our Home is Small but Mighty!</h1>
+      <p>
+        We are currently home to:
+      </p>
+      <div className="gallery">
+        {images.map((image, index) => (
+          <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
+        ))}
+      </div>
+    </>
   );
 };
 
