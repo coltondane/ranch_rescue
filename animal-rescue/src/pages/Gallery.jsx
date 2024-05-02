@@ -14,6 +14,34 @@ import brownHorse from '../assets/horse2.jpeg';
 import donkey2 from '../assets/donkey2.jpeg';
 
 const ImageGallery = () => {
+
+  // animal types and counts
+  const animals = [
+    {
+      type: 'Horses',
+      count: 2
+    },
+    {
+      type: 'Pigs',
+      count: 3
+    },
+    {
+      type: 'Turtles',
+      count: 1
+    },
+    {
+      type: 'Donkeys',
+      count: 1
+    },
+    {
+      type: 'Piglets',
+      count: 2
+    },
+    {
+      type: 'Colts',
+      count: 1
+    }
+  ];
   // Array of image paths
   const images = [
     lilyImg,
