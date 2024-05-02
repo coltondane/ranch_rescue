@@ -19,27 +19,43 @@ const ImageGallery = () => {
   const animals = [
     {
       type: 'Horses',
-      count: 2
+      count: 14
     },
     {
       type: 'Pigs',
-      count: 3
+      count: 7
     },
     {
-      type: 'Turtles',
-      count: 1
+      type: 'Alpacas',
+      count: 4
     },
     {
       type: 'Donkeys',
-      count: 1
+      count: 3
     },
     {
-      type: 'Piglets',
+      type: 'Goats',
+      count: 6
+    },
+    {
+      type: 'Sheep',
       count: 2
     },
     {
-      type: 'Colts',
-      count: 1
+      type: 'Cows',
+      count: 4
+    },
+    {
+      type: 'Chickens',
+      count: 12
+    },
+    {
+      type: 'Ducks',
+      count: 4
+    },
+    {
+      type: 'Dogs',
+      count: 9
     }
   ];
   // Array of image paths
