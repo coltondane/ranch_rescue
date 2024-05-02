@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/gallery.css'; 
+import AnimalCount from '../components/AnimalCount';
 
 // images 
 import lilyImg from '../assets/lily.jpg';
@@ -16,7 +17,7 @@ import donkey2 from '../assets/donkey2.jpeg';
 const ImageGallery = () => {
 
   // animal types and counts
-  const animals = [
+  const animalData = [
     {
       type: 'Horses',
       count: 14
@@ -78,6 +79,7 @@ const ImageGallery = () => {
       <p>
         We are currently home to:
       </p>
+      <AnimalCount animalData={animalData} />
       <div className="gallery">
         {images.map((image, index) => (
           <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
