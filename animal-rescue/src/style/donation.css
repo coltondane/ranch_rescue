@@ -8,6 +8,17 @@
     justify-content: center;
 }
 
+.patreon-btn {
+    background-color: rgb(144, 52, 214);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
 .animal-card {
     width: 22rem;
     height: 50rem;

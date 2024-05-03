@@ -1,5 +1,6 @@
 // DonationsPage.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimalCard from '../components/AnimalCard';
 
 import lilyImg from '../assets/lily.jpg';
@@ -77,7 +78,7 @@ function DisplayAnimals() {
           <div className='donation-desc'>
             <h1>Your Donation in Action: Supporting Our Animals</h1>
             <p>
-              At Lily's Ranch and Rescue, your generous donations play a crucial role in providing essential care and support for our animals. Every contribution goes directly towards ensuring the well-being and happiness of the animals in our care.
+              At Lily's Ranch and Rescue, your generous donations play a crucial role in providing essential care and support for our animals. Every contribution goes directly towards ensuring the well-being and happiness of the animals in our care. Here are some of the ways your donation makes a difference:
             </p>
             <ul>
               <li>
@@ -92,6 +93,9 @@ function DisplayAnimals() {
               <li>
                 Enrichment and Socialization: Your contributions support activities and programs that promote mental and physical well-being for our animals aiding in their rehabilitation and rehoming.
               </li>
+              <Link to="https://www.patreon.com/lilysranchandrescue?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" className="link-style">
+                <button className="patreon-btn">Donate Now</button>
+              </Link>
             </ul>
             <p>
               Every animal has a story to tell, and here, we invite you to discover the inspiring stories of resilience, courage, and love. From abandoned and neglected animals to those facing life-threatening conditions, our dedicated team works tirelessly to provide them with a second chance at life.

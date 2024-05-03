@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 // import placeholder image for testing purposes
 import placeholder from '../assets/pony.png';
@@ -16,7 +17,9 @@ function AnimalCard({id, name, image, description}) {
                         {description}
                     </Card.Text>
                 )}
-                <Button variant="primary" className='card-button'>Learn More</Button>
+                <Link to='https://www.patreon.com/lilysranchandrescue?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink' target='_blank' className='card-link'>
+                    <Button variant="primary" className='card-button'>Learn More</Button>
+                </Link>
             </Card.Body>
         </Card>
     );
