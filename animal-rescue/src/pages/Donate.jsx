@@ -93,7 +93,7 @@ function DisplayAnimals() {
               <li>
                 Enrichment and Socialization: Your contributions support activities and programs that promote mental and physical well-being for our animals aiding in their rehabilitation and rehoming.
               </li>
-              <Link to="https://www.patreon.com/lilysranchandrescue?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" className="link-style">
+              <Link to="https://www.patreon.com/lilysranchandrescue?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink"  target='_blank' className="link-style">
                 <button className="patreon-btn">Donate Now</button>
               </Link>
             </ul>
