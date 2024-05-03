@@ -75,11 +75,10 @@ const ImageGallery = () => {
 
   return (
     <>
-      <h1 className="gallery-title">Our Home is Small but Mighty!</h1>
-      <p>
-        We are currently home to:
-      </p>
-      <AnimalCount animalData={animalData} />
+      <h1 className="gallery-title">Our Home is Small but Mighty! We Are Currently Home to:</h1>
+      <div className='count-container'>
+        <AnimalCount animalData={animalData} />
+      </div>
       <div className="gallery">
         {images.map((image, index) => (
           <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
