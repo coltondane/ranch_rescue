@@ -102,7 +102,7 @@ function DisplayAnimals() {
             </p>
           </div>
           <div className='success-cards'>
-            <h1>Lily's Success Stories</h1>
+            <h1>Their Stories</h1>
             <div className='form-element'>
               {animals.map(animal => (
                   <AnimalCard key={animal.id} name={animal.name} image={animal.image} description={animal.description} />
