@@ -1,14 +1,10 @@
 // component handling emailJS logic on form submit from contact page
 import emailjs from '@emailjs/browser';
 
-// const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
-// const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
-// const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
-
 // fill in once they register with the email service
-const serviceId = "";
-const templateId = "";   
-const publicKey = "";
+const serviceId = "service_fn3zu57";
+const templateId = "template_d0sikel";   
+const publicKey = "3k2mEyjS8Of0O5omb";
 
 console.log(serviceId, templateId, publicKey);
 
