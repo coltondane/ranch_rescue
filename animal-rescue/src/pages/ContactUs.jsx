@@ -70,7 +70,7 @@ function ContactUs() {
         setMessage('');
 
         setFormSubmitted(true);
-        showModal('Thank you for reaching out! I will get back to you as soon as possible :)', 'Success')
+        showModal('Thank you for reaching out! We will get back to you as soon as possible :)', 'Success')
 
         // reset form submitted state after 5 seconds so they can type again if need be
         setTimeout(() => {
