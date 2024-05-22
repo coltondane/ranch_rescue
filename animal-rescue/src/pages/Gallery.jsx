@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import '../style/gallery.css'; 
 import AnimalCount from '../components/AnimalCount';
 
@@ -14,11 +15,23 @@ import AnimalCount from '../components/AnimalCount';
 // import brownHorse from '../assets/horse2.jpeg';
 // import donkey2 from '../assets/donkey2.jpeg';
 
-function importImages(r) {
-  return r.keys().map(r);
-}
+const images = import.meta.glob('../assets/*.{png,jpg,jpeg,svg}');
 
 const ImageGallery = () => {
+  const [imagePaths, setImagePaths] = useState([]);
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const importedImages = await Promise.all(
+        Object.keys(images).map(async (path) => {
+          const image = await images[path]();
+          return image.default;
+        })
+      );
+      setImagePaths(importedImages);
+    };
+    loadImages();
+  }, []);
 
   // animal types and counts
   const animalData = [
@@ -64,7 +77,6 @@ const ImageGallery = () => {
     }
   ];
   // Array of image paths
-  const images = importImages(require.context('../assets', false, /\.(png|jpe?g|svg)$/));
   // const images = [
   //   lilyImg,
   //   pigletImg,
@@ -85,7 +97,8 @@ const ImageGallery = () => {
         <AnimalCount animalData={animalData} />
       </div>
       <div className="gallery">
-        {images.map((image, index) => (
+        {/* loop over the image paths */}
+        {imagePaths.map((image, index) => (
           <img key={index} src={image} alt={`Image ${index}`} className="gallery-image" />
         ))}
       </div>
