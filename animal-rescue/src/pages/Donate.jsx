@@ -6,6 +6,8 @@ import AnimalCard from '../components/AnimalCard';
 import lilyImg from '../assets/lily.jpg';
 import pigletImg from '../assets/piglet.jpeg';
 import placeHolderImg from '../assets/pony.png';
+import mapleImg from '../assets/Maple.jpeg';
+import turboImg from '../assets/Turbo&Maple.jpeg';
 
 import '../style/donation.css';
 
@@ -19,15 +21,15 @@ function DisplayAnimals() {
         },
         {
             id: 2,
-            name: 'Piglet',
-            image: pigletImg,
-            description: 'Piglet is a pig who was rescued from a factory farm'
+            name: 'Maple',
+            image: mapleImg,
+            description: 'Maple and turbos story: My friend sent me a text after posting on a horse rescue FB  to save these 2. We intercepted them before they went to the horse auction. Maple the mom went on to training after raising turbo and turned into a phenomenal horse. She sold for a large amount of money and living the perfect life as a dressage horse.'
         },
         {
             id: 3,
-            name: 'Horse',
-            image: placeHolderImg,
-            description: 'This horse was rescued from a slaughterhouse'
+            name: 'Turbo',
+            image: turboImg,
+            description: 'When rescued, the baby was only a couple weeks old and could not eat because he was bitten by a rattle snake on his tongue. Our vet met the trailer at our property to determine if we could save him. Mom was unhandled making this difficult. Our vet was amazing and with the care and vetting Turbo fully recovered. He continued to struggle with health issues however. When he went to training he got bit by a spider requiring a very long battle to recover. He also had under developed stifle joints which required surgery.    He currently lives at our rescue/sanctuary living a wonderful life.'
         },
         {
             id: 4,
