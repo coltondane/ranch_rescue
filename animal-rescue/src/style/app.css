@@ -23,7 +23,7 @@ header {
   button {
     background-color: transparent;
     color: white;
-    border: 1px solid #000000;
+    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -31,8 +31,9 @@ header {
   }
 
 button:hover {
-    box-shadow: 0 8px 16px #fd8626;
-    transform: scale(1.05);
+    /* box-shadow: 0 8px 16px #fd8626; */
+    transform: scale(1.15);
+    transition-duration: 1000ms;
 }
 
 .link-style {
@@ -103,4 +104,8 @@ button:hover {
     color: white;
     background-color: rgb(144, 52, 214);
   }
+
+    .donate-btn:hover {
+        background-color: #fd8626;
+    }
   

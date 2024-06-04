@@ -17,7 +17,7 @@ function DisplayAnimals() {
             id: 1,
             name: 'Lily',
             image: lilyImg,
-            description: 'Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado.The rest of this is gibberish to test the overflow of the text. Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado. blah blah blah keep going. talk about how she inspired Laurie to blah blah blah. Rehoming animals allows us to intake new rescues, and those who cannot find a home due to health conditions or other complications will always have a safe, forever home here at Lily\'s Ranch and Rescue.'
+            description: 'Lily is a miniature pony-donkey cross who was rescued from a feedlot as a filly. She is full of spice and after spending her first few years with us at our rescue, she has lovingly found her forever home with a family in Colorado.'
         },
         {
             id: 2,
@@ -49,30 +49,6 @@ function DisplayAnimals() {
             image: placeHolderImg,
             description: 'This cow was rescued from a dairy farm and is now living out their days at Lily\'s Ranch and Rescue'
         },
-        {
-            id: 7,
-            name: 'Goat',
-            image: placeHolderImg,
-            description: 'This goat was rescued from a slaughterhouse'
-        },
-        {
-            id: 8,
-            name: 'Sheep',
-            image: placeHolderImg,
-            description: 'This sheep was rescued from a factory farm'
-        },
-        {
-            id: 9,
-            name: 'Chicken',
-            image: placeHolderImg,
-            description: 'This chicken was rescued from a factory farm'
-        },
-        {
-            id: 10,
-            name: 'Duck',
-            image: placeHolderImg,
-            description: 'This duck was rescued from a factory farm'
-        }
     ];
     // map over the animals array to create an AnimalCard for each animal
     return (
