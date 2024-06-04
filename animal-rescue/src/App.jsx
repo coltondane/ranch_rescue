@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./style/app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ranchLogo from "./assets/ranchLogo.jpg";
+import ranchLogo from "./assets/web_images/ranchLogo.jpg";
 import Popup from "./components/Popup.jsx";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";

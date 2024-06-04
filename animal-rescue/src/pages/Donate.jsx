@@ -3,11 +3,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AnimalCard from '../components/AnimalCard';
 
-import lilyImg from '../assets/lily.jpg';
-import pigletImg from '../assets/piglet.jpeg';
+import lilyImg from '../assets/web_images/lily2.jpeg';
+import pigletImg from '../assets/web_images/piglet.jpeg';
 import placeHolderImg from '../assets/pony.png';
-import mapleImg from '../assets/Maple.jpeg';
-import turboImg from '../assets/Turbo&Maple.jpeg';
+import mapleImg from '../assets/web_images/Maple.jpeg';
+import turboImg from '../assets/gallery_images/Turbo&Maple.jpeg';
 
 import '../style/donation.css';
 

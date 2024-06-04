@@ -15,7 +15,7 @@ import AnimalCount from '../components/AnimalCount';
 // import brownHorse from '../assets/horse2.jpeg';
 // import donkey2 from '../assets/donkey2.jpeg';
 
-const images = import.meta.glob('../assets/*.{png,jpg,jpeg,svg}');
+const images = import.meta.glob('../assets/gallery_images/*.{png,jpg,jpeg,svg}');
 
 const ImageGallery = () => {
   const [imagePaths, setImagePaths] = useState([]);
@@ -41,7 +41,7 @@ const ImageGallery = () => {
     },
     {
       type: 'Pigs',
-      count: 7
+      count: 26
     },
     {
       type: 'Alpacas',
@@ -53,7 +53,7 @@ const ImageGallery = () => {
     },
     {
       type: 'Goats',
-      count: 6
+      count: 8
     },
     {
       type: 'Sheep',
@@ -61,15 +61,15 @@ const ImageGallery = () => {
     },
     {
       type: 'Cows',
-      count: 4
+      count: 6
     },
     {
       type: 'Chickens',
       count: 12
     },
     {
-      type: 'Ducks',
-      count: 4
+      type: 'Cats',
+      count: 8
     },
     {
       type: 'Dogs',

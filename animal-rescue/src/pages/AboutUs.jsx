@@ -2,12 +2,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../style/aboutUs.css';
-import horsesImg from '../assets/horses.jpeg';
-import lilyImg from '../assets/lily.jpg';
-import donkeys from '../assets/donkeys.jpg';
-import pony from '../assets/pony2.jpeg';
-import piglet from '../assets/piglet.jpeg';
-import fam from '../assets/laurie+trey.jpg';
+import horsesImg from '../assets/web_images/horses.jpeg';
+import lilyImg from '../assets/web_images/lily.jpg';
+import donkeys from '../assets/web_images/donkeys.jpg';
+import pony from '../assets/web_images/lily2.jpeg';
+import piglet from '../assets/web_images/piglet.jpeg';
+import fam from '../assets/web_images/laurie+trey.jpg';
 
 
 function AboutPage() {

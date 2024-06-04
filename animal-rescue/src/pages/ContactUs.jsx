@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import sendEmail from "../utils/emailHandler";
-import contactImg from "../assets/contactImg.jpg";
+import contactImg from "../assets/web_images/contactImg.jpg";
 
 import '../style/contactUs.css';
 
