@@ -42,7 +42,7 @@ function App() {
                 <button className="contact-btn">Contact Us</button>
               </Link>
               <Link to="/donate" className="link-style">
-                <button className="donate-btn">Donate</button>
+                <button className="donate-btn">Get Involved</button>
               </Link>
             </ul>
           </nav>
