@@ -10,6 +10,8 @@
 .summary-lily {
     margin: auto;
     text-align: center;
+    color: black;
+    background-color: white;
 }
 
 .lily {
@@ -25,6 +27,11 @@
 }
 
 /* 2nd section */
+
+.reason {
+    color: black;
+    background-color: white;
+}
 
 .horses-img {
     height: 750px;
@@ -58,9 +65,19 @@
     margin-top: 30px;
     padding: 30px;
     text-align: center;
+    color: black;
+    background-color: white;
 }
 
 /* 4th section */
+
+.founders {
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
 
 .fam-pic {
     height: 500px;
