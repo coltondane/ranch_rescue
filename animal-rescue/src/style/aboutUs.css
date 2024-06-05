@@ -2,7 +2,8 @@
 
 .meet {
     margin: auto;
-    color: white;
+    color: black;
+    background-color: white;
     padding: 20px;
     text-align: center;
 }
