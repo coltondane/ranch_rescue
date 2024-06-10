@@ -8,7 +8,7 @@ import pigletImg from '../assets/web_images/piglet.jpeg';
 import placeHolderImg from '../assets/pony.png';
 import mapleImg from '../assets/web_images/Maple.jpeg';
 import turboImg from '../assets/gallery_images/Turbo&Maple.jpeg';
-
+import bubbaImg from '../assets/gallery_images/hugepig.jpeg';
 import '../style/donation.css';
 
 function DisplayAnimals() {
@@ -33,9 +33,9 @@ function DisplayAnimals() {
         },
         {
             id: 4,
-            name: 'Donkey',
-            image: placeHolderImg,
-            description: 'This donkey was rescued from a feedlot'
+            name: 'Bubba',
+            image: bubbaImg,
+            description: "Meet Bubba, we rescued him from neglect in Eastern Kentucky. He lived in the corner of a room in the house and absolute horrid conditions. Rescuing him was tough. He's in pain, very aggressive because of his pain and the family he lived with were very hard to work with. We got him home, got him unloaded in his new area and the next day he had a seizure and must've passed out out in the sun burning himself and getting heat stroke. All in the process of us moving from our old farm to the new farm, so he was not looked at for about two hours, we came home to him nonresponsive and a temp of 106. We knew we had minutes to save his life for an amazing vet. She dropped everything and headed over."
         },
         {
             id: 5,
