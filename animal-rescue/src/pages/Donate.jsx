@@ -9,6 +9,11 @@ import placeHolderImg from '../assets/pony.png';
 import mapleImg from '../assets/web_images/Maple.jpeg';
 import turboImg from '../assets/gallery_images/Turbo&Maple.jpeg';
 import bubbaImg from '../assets/gallery_images/hugepig.jpeg';
+import shadowImg from '../assets/web_images/shadow_1.jpg';
+import snowmanImg from '../assets/web_images/snowman.jpeg';
+import b_pImg from '../assets/web_images/b&p.jpeg';
+import mama_charoletteImg from '../assets/web_images/mama&char.jpg';
+import kevinImg from '../assets/web_images/kevin.jpeg';
 import '../style/donation.css';
 
 function DisplayAnimals() {
@@ -39,16 +44,34 @@ function DisplayAnimals() {
         },
         {
             id: 5,
-            name: 'Pony',
-            image: placeHolderImg,
-            description: 'This pony was rescued from a factory farm'
+            name: 'Shadow',
+            image: shadowImg,
+            description: "Meet shadow, the pitbull that was dropped off at our farm. We weren’t accepting dogs at this time and he was dropped off anyway, this boy has been through a lot. He came to us a very skinny. We found a vet to neuter him right away as we already had six dogs on the property. We fell in love with this boy. Soon after being neutered we noticed a growth on his hind foot. We took him to our vet to find out he had stage for mass cell cancer, we had his leg amputated the following weekend and he started cancer treatment. He was doing phenomenal as a tripod so happy with life. He moved with us to our new property and Kentucky in 2022. Unfortunately, since he was later found out to be a bait dog his PTSD got the best of him. We felt it was in his best interest to let him go and cross the rainbow bridge. We will forever miss this boy."
         },
         {
             id: 6,
-            name: 'Cow',
-            image: placeHolderImg,
-            description: 'This cow was rescued from a dairy farm and is now living out their days at Lily\'s Ranch and Rescue'
+            name: 'Snowman',
+            image: snowmanImg,
+            description: "Meet snowman. We got a call from a neighbor about a pony locked in a neighbors barn feed closet.   We went over to investigate and immediately jumped into action.  He was a body score of 2 living in such a small space in the dark no food no water. And unhandled.  I mentioned to the owners that I had a white mini pony mare  that I would like to breed since he was a stud.  Sure you can have them we did the paperwork and the brand inspection and immediately took him home. Our vet met us the next morning completely shocked he was still alive. he had a good 25 to 30 pounds of sand in his belly since he was eating dirt and manure to survive if you call that surviving. He was immediately vetted and started on a rehab program to get weight back on him safely. He bounced back so quick and became so full of life once he was safe to have his gelding  procedure done. We sent him to CSU since he was a possible high risk due to his previous health.  He loved to be worked and loved making a human happy. We sent him to our Trainer in Wisconsin where he found his forever home with a family. We are so fond of this boy, and so proud of who he became and what he overcame."
         },
+        {
+            id: 7,
+            name: 'Beans & Petunia',
+            image: b_pImg,
+            description: "Meet beans and petunia, These girls came to us from a hoarding case in Boulder, Colorado. This claim to be a pig sanctuary, but they were massively breeding pigs to help pay for their sanctuary, which is an oxymoron. It was a catch what we could to rescue.   These girls came home with us. It is very unfortunate. The following summer. There was a massive fire in West Boulder County and many of the pigs on that farm perished. We are very grateful for the two we were able to save. These girls made us aware of how much of a rescue need there is for pigs. Since rescuing these two girls, we have rescued 25 more pigs in the last two years. We turn away sadly so many that we just can’t help. It is hard to accept that we can’t help everyone. These girls are our pig mascots "
+        },
+        {
+            id: 8,
+            name: 'Mama & Charolette',
+            image: mama_charoletteImg,
+            description: "Baby Charlotte was born unexpectedly on June 26th 2023. Her mom went into distress during labor and had to be rushed to the vet for a c section where all the other babies didn’t make it. We had to take over care of her full time. Bottle feeding every 2 hrs. She has become such a treasure at the sanctuary. So much personality. She went on 2 horse hauls with us since she had to be fed around the clock. She will be 1 in a couple weeks. You can see more of them in the gallery."
+        },
+        {
+            id: 9,
+            name: 'Kevin',
+            image: kevinImg,
+            description: "Meet Kevin we got a call from law-enforcement in a town in northern Kentucky about a pig who was thrown from a vehicle on the side of the road. He had suffered a broken pelvis, so wasn’t moving around too fast. It took three local law-enforcement to help me get him loaded safely into my vehicle and we hauled him back home to the rescue , we took the following day to our vet to be neutered and fully vetted to make sure he would be okay. It’s taken him several months, but he has made a full recovery and just one of the happiest boys on the rescue. He loves giving kisses and he loves to talk and let the world know he’s doing just fine. "
+        }
     ];
     // map over the animals array to create an AnimalCard for each animal
     return (
