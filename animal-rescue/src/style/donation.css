@@ -33,23 +33,28 @@
 }
 
 .animal-name {
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
 .card-description {
     height: 250px;
     overflow-y: auto;
-    color: white;
+    color: black;
 }
 
 .card-button {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgb(144, 52, 214);
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 15px;
     cursor: pointer;
     margin: 0 10px;
+}
+
+.card-button:hover {
+    background-color: #fd8626;
+    color: white;
 }
