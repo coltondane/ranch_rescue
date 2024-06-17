@@ -10,7 +10,7 @@ const Popup = () => {
 
     // Function to generate a random name that will be gathered from the patreon account
     const getRandomName = () => {
-        const names = ['John', 'Alice', 'Bob', 'Emily', 'Charlie', 'Eva'];
+        const names = ['John', 'Alice', 'Bob', 'Emily', 'Charlie', 'Eva', 'David', 'Grace', 'Frank', 'Hannah', 'George', 'Isabel', 'Henry', 'Julia', 'Jack', 'Katie', 'James', 'Lily', 'Leo', 'Mia', 'Luke', 'Nora', 'Max', 'Olivia', 'Noah', 'Sophia', 'Owen', 'Zoe', 'Peter', 'Sarah', 'Sam', 'Rachel', 'Tom', 'Rebecca', 'Will', 'Victoria', 'Zach', 'Yvonne', 'Xander', 'Wendy', 'Quinn', 'Ryan', 'Tina', 'Xavier', 'Uma', 'Yuri', 'Violet', 'Zane', 'Mitch', 'Stacey', 'Nate', 'Penny', 'Oscar', 'Quinn', 'Paul', 'Rita', 'Quincy', 'Sara', 'Ralph', 'Tara', 'Steve', 'Terry', 'Vera', 'Victor', 'Wanda', 'Walter', 'Yuri', 'Zara'];
         return names[Math.floor(Math.random() * names.length)];
     };
 
