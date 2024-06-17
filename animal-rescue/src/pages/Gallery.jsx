@@ -10,13 +10,18 @@ const ImageGallery = () => {
 
   useEffect(() => {
     const loadImages = async () => {
-      const importedImages = await Promise.all(
-        Object.keys(images).map(async (path) => {
-          const image = await images[path]();
-          return image.default;
-        })
-      );
-      setImagePaths(importedImages);
+      try {
+        const importedImages = await Promise.all(
+          Object.keys(images).map(async (path) => {
+            const image = await images[path]();
+            return image.default;
+          })
+        );
+          setImagePaths(importedImages);
+        
+      } catch (error) {
+        console.error('Error loading images:', error);
+      }
     };
     loadImages();
   }, []);
